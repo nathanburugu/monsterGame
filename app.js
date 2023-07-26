@@ -1,6 +1,7 @@
 let statusBar1 = document.getElementById("myhealthbar__value");
 let statusBar2 = document.getElementById("monsterhealthbar__value");
 let clickCount = 0;
+let endpoint;
 
 function updateStatusBars() {
   let randomNumber1 = Math.random() * 4 + 8;
